@@ -22,10 +22,13 @@ The first thing to do to get Tobey on your local dev environment, is to clone/do
 All dependancies that Core has have been implemented as .NetStandard libraries that can be cloned/downloaded from GitHub as well.
 At the current moment, you need to compile any dependancy manually before being able to compile Core.
 
+- Create a local Nuget feed. To do so, You can follow this simple steps from the Official ["https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds"](Visual Studio article).
+
 - Clone and compile Foundation. This is an isolated component which doesn't have explicit dependancy, hence why will compile without any issue.
-- Pack Foundation and push the nuget package into your local Nuget feed. Thisstep if needed to share the library with the other components.
-- Clone and compile the default Skills which are: tobey-skill-datetime, tobey-skill-weather, tobey-skill-search, tobey-skill-greetings.
-Make sure to pack these libraries and store the nuget package in your selected local nuget feed.
+- Pack Foundation and push the nuget package into your local Nuget feed. This step if needed to share the library with all other components.
+- Clone and compile the default Skills which are: **tobey-skill-datetime**, **tobey-skill-weather**, **tobey-skill-search**, **tobey-skill-greetings**.
+Make sure to pack these libraries and store the resulting nuget packages in your selected local nuget feed.
+- 
 
 
 
