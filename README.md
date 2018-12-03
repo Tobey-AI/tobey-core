@@ -18,7 +18,10 @@ There is a set of preconfigured Skill already activated in the Core. Skills like
 
 ## Building the DEV environment
 
-To build Tobey on your local dev environment, you need to clone/dowload the Core solution and the Foundation solution. 
+To build Tobey on your local dev environment, you need to clone/dowload the Core and the Foundation solutions.
+**Foundation** is a .NetStandard library, hence why you need to pack the library and push it into you local Nuget feed which will be used by the **Core** solution to load the library and restore the packages.
+
+
 
 ## Tools needed
 
