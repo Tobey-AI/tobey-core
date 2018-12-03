@@ -12,15 +12,13 @@ This is the main component which handles the STT functionality and orchestrates 
 ### **Foundation (tobey-foundation)**
 This is the component which exposes the NLP Engine and all other common methods and functionalities shared across all other components. This is a .Net Standard library. 
 
-## Skills
-Each skill needs to be implemented as a separate .Net Standard library to be referenced in the Core project as a separate Nuget package.
+### Skills
+Each skill needs to be implemented as a separate **.Net Standard library** to be referenced in the **Core** project as a Nuget package.
+There is a set of preconfigured Skill already activated in the Core. Skills like Date and time, Weather, Search, Ip lookup, are all pre-loaded into the Core component.
 
 ## Building the DEV environment
 
-To build Tobey on your local dev environment, you need to setup a local Nuget feed.
-
-
-
+To build Tobey on your local dev environment, you need to clone/dowload the Core solution and the Foundation solution. 
 
 ## Tools needed
 
