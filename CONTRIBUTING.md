@@ -31,7 +31,7 @@ Please find the list of adopted tools below:
 
 2.  [Fork the project](https://help.github.com/articles/fork-a-repo/).
 
-3.  Create a new branch from 'master'. Each branch name should end with the Github issue ID. For example, if your Github issue name is: *issue-001* , your branch should be named as follows:
+3.  Create a new branch from 'master'. Each branch name should end with the Github issue ID. For example, if your Github issue name is: *issue-001*, your branch should be named as follows:
 
     - If the issue is related to a bug, **bug-001**.
     
