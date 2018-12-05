@@ -57,7 +57,8 @@ Please find the list of adopted tools below:
 
 - You can finally [raise a PR on Github](https://help.github.com/articles/about-pull-requests/) to be reviewed and merged. 
 
-The entire process is clearly explained on this web article: http://doc.fireflymigration.com/working-with-github-fork-in-visual-studio.html
+The entire process is clearly explained on this web article:<br/>
+http://doc.fireflymigration.com/working-with-github-fork-in-visual-studio.html
 
 If accepted, your fork will be pulled into the original repository. 
 
