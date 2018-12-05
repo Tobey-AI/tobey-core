@@ -37,7 +37,7 @@ Please find the list of adopted tools below:
 
 4. Please follow the object oriented design and patterns already present in the solution as much as possible.
 
-5. Please make sure your code will be properly documented. You can find the .Net documentation guidelines at this link: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/recommended-tags-for-documentation-comments 
+5. Please make sure your code will be properly documented following the [.Net documentation guidelines](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/recommended-tags-for-documentation-comments).
 
 6. Make sure that each commit comment will contain the issue ID which is related to, together with a proper description of what is contained.
 
@@ -45,7 +45,7 @@ Please find the list of adopted tools below:
 
 8. Sync your fork with the original (*upstream*) project. This step is needed to guarantee that your fork is in sync with the latest status of the original repository.
 
-**From your Fork**:
+## From your Fork
 
    - Pull from the master branch to make sure your local master is synced.
 
@@ -60,7 +60,8 @@ http://doc.fireflymigration.com/working-with-github-fork-in-visual-studio.html
 
 If accepted, your fork will be pulled into the original repository. 
 
-**Make sure you never push or merge your Pull Requests**. Let another reviewer review your request.
+**Make sure you never push or merge your Pull Requests**.<br/> 
+Let another reviewer review your request.
 
-**Important**:
+### Important:
 Even if you have write permission to the master branch of your fork, make sure you never work on the master branch.
