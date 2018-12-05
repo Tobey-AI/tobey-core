@@ -38,5 +38,5 @@ Make sure to pack these libraries and store the resulting Nuget packages in your
 ## Tools needed
 
 - Visual Studio 2017
-- .Net Core 1.4 +
+- .Net Core SDK 1.4 +
 - Github Tools for Visual Studio
