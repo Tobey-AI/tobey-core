@@ -8,11 +8,11 @@ To become a contributor for **Tobey AI** you can follow the steps described belo
 1. You need a Github account.
 2. Create a [new issue](https://github.com/Tobey-AI/tobey-core/issues), making sure that it doesn't exist already:
 
-- If you found a **bug**: Make sure to describe the bug properly and provide the steps to reproduce it.
+    - If you found a **bug**: Make sure to describe the bug properly and provide the steps to reproduce it.
 
-- If it is a **new feature**: Make sure to provide a detailed description of the new feature, including how it should work. 
+    - If it is a **new feature**: Make sure to provide a detailed description of the new feature, including how it should work. 
 
-- If you want to fix/implement the issue by yourself, you can [fork the Github project](https://help.github.com/articles/fork-a-repo/).
+    - If you want to fix/implement the issue by yourself, you can [fork the Github project](https://help.github.com/articles/fork-a-repo/).
 
 ## Development
 
@@ -45,7 +45,7 @@ Please find the list of adopted tools below:
 
 8. Sync your fork with the original (*upstream*) project. This step is needed to guarantee that your fork is in sync with the latest status of the original repository.
 
-## From your Fork
+### From your Fork
 
    - Pull from the master branch to make sure your local master is synced.
 
