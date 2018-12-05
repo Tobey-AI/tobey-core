@@ -24,7 +24,7 @@ At the current moment, you need to compile any dependancy manually before being 
 
 Please follow these steps to get your DEV environment up and running:
 
-- Create a local Nuget feed. To do so, You can follow this simple steps from the Official ["https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds"](Visual Studio article).
+- Create a local Nuget feed. To do so, You can follow this simple steps from the Official (https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds)[Visual Studio article].
 
 - Clone and compile Foundation. This is an isolated component which doesn't have explicit dependancy, hence why will compile without any issue.
 - Pack Foundation and push the nuget package into your local Nuget feed. This step if needed to share the library with all other components.
