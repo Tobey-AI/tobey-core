@@ -45,7 +45,7 @@ Please find the list of adopted tools below:
 
 8. Once you are done with your branch and you have committed all your changes, please follow the steps below:
 
-- Sync your fork with the original (*upstream*) project. This step is needed to guarantee that your fork is in sync with the latest status of the original repository. See the reference guide: https://help.github.com/articles/syncing-a-fork/
+9. Sync your fork with the original (*upstream*) project. This step is needed to guarantee that your fork is in sync with the latest status of the original repository.
 
 **From your Fork**:
 
@@ -56,6 +56,8 @@ Please find the list of adopted tools below:
 - Resolve any conflicts
 
 - You can finally [raise a PR on Github](https://help.github.com/articles/about-pull-requests/) to be reviewed and merged. 
+
+The entire process is clearly explained on this web article: http://doc.fireflymigration.com/working-with-github-fork-in-visual-studio.html
 
 If accepted, your fork will be pulled into the original repository. 
 
