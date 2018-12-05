@@ -5,8 +5,8 @@ To become a contributor for **Tobey AI** you can follow the steps described belo
 
 ## Getting started
 
-1. You need a Github account.
-2. Create a [new issue](https://github.com/Tobey-AI/tobey-core/issues), making sure that it doesn't exist already:
+1.  You need a Github account.
+2.  Create a [new issue](https://github.com/Tobey-AI/tobey-core/issues), making sure that it doesn't exist already:
 
     - If you found a **bug**: Make sure to describe the bug properly and provide the steps to reproduce it.
 
@@ -25,25 +25,25 @@ Please find the list of adopted tools below:
 
 ### Branching and PRs strategy
 
-1. Create a [new issue](https://github.com/Tobey-AI/tobey-core/issues).
+1.  Create a [new issue](https://github.com/Tobey-AI/tobey-core/issues).
 
-2. [Fork the project](https://help.github.com/articles/fork-a-repo/).
+2.  [Fork the project](https://help.github.com/articles/fork-a-repo/).
 
-3. Create a new branch from 'master'. Each branch name should end with the Github issue ID. For example, if your Github issue name is: *issue-001* , your branch should be named as follows:
+3.  Create a new branch from 'master'. Each branch name should end with the Github issue ID. For example, if your Github issue name is: *issue-001* , your branch should be named as follows:
 
     - If the issue is related to a bug, **bug-001**.
     
     - If the issue is related to a new feature, **feat-001**.
 
-4. Please follow the object oriented design and patterns already present in the solution as much as possible.
+4.  Please follow the object oriented design and patterns already present in the solution as much as possible.
 
-5. Please make sure your code will be properly documented following the [.Net documentation guidelines](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/recommended-tags-for-documentation-comments).
+5.  Please make sure your code will be properly documented following the [.Net documentation guidelines](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/recommended-tags-for-documentation-comments).
 
-6. Make sure that each commit comment will contain the issue ID which is related to, together with a proper description of what is contained.
+6.  Make sure that each commit comment will contain the issue ID which is related to, together with a proper description of what is contained.
 
-7. Make sure there are no warnings or errors in your commits.
+7.  Make sure there are no warnings or errors in your commits.
 
-8. Sync your fork with the original (*upstream*) project. This step is needed to guarantee that your fork is in sync with the latest status of the original repository.
+8.  Sync your fork with the original (*upstream*) project. This step is needed to guarantee that your fork is in sync with the latest status of the original repository.
 
 ### From your Fork
 
@@ -55,7 +55,7 @@ Please find the list of adopted tools below:
 
    - You can finally [raise a PR on Github](https://help.github.com/articles/about-pull-requests/) to be reviewed and merged. 
 
-The entire process is clearly explained on this web article:<br/>
+The entire process is clearly explained in this web article:<br/>
 http://doc.fireflymigration.com/working-with-github-fork-in-visual-studio.html
 
 If accepted, your fork will be pulled into the original repository. 
