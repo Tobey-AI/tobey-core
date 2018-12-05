@@ -60,8 +60,8 @@ http://doc.fireflymigration.com/working-with-github-fork-in-visual-studio.html
 
 If accepted, your fork will be pulled into the original repository. 
 
-**Make sure you never push or merge your Pull Requests**.<br/> 
-Let another reviewer review your request.
 
-### Important:
-Even if you have write permission to the master branch of your fork, make sure you never work on the master branch.
+
+### Important notes:
+- Even if you have write permission to the master branch of your fork, make sure you never work on the master branch.
+- Make sure you never push or merge your Pull Requests, let another reviewer work on your request.
