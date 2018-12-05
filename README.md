@@ -24,21 +24,13 @@ At the current moment, you need to compile any dependancy manually before being 
 
 Please follow these steps to get your DEV environment up and running:
 
-- Create a local Nuget feed. To do so, You can follow this simple steps from the Official (https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds)[Visual Studio article].
+- Create a local Nuget feed. To do so, You can follow this simple steps from this [Official Visual Studio article](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds).
 
-- Clone and compile Foundation. This is an isolated component which doesn't have explicit dependancy, hence why will compile without any issue.
-- Pack Foundation and push the nuget package into your local Nuget feed. This step if needed to share the library with all other components.
+- Clone and compile the **Foundation** solution. This is an isolated component which doesn't have explicit dependancy with any other project, hence why will compile without any issue.
+- Pack **Foundation** and push the Nuget package into your local Nuget feed. This step is needed to share the library with all other components.
 - Clone and compile the default Skills which are: **tobey-skill-datetime**, **tobey-skill-weather**, **tobey-skill-search**, **tobey-skill-greetings**.
-Make sure to pack these libraries and store the resulting nuget packages in your selected local nuget feed.
-- 
-
-
-
-
-
-**Foundation** is a .NetStandard library, hence why you need to pack the library and push it into you local Nuget feed which will be used by the **Core** solution to load the library and restore the packages.
-
-
+Make sure to pack these libraries and store the resulting Nuget packages in your selected local Nuget feed.
+- Now you can finally restore the packages in the **Core** project and build it.
 
 ## Tools needed
 
