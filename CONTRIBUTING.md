@@ -20,7 +20,9 @@ To become a contributor for **Tobey AI** you can follow the steps described belo
 
 Tobey Core is being implemented as a UWP app running on Windows IOT. 
 Please find the list of adopted tools below:
+
 - Visual Studio 2017 Community edition.
+
 - Github extention for Visual Studio. https://visualstudio.github.com
 
 ### Branching and PRs strategy
@@ -64,4 +66,5 @@ If accepted, your fork will be pulled into the original repository.
 
 ### Important notes:
 - Even if you have write permission to the master branch of your fork, make sure you never work on the master branch.
+
 - Make sure you never push or merge your Pull Requests, let another reviewer work on your request.
