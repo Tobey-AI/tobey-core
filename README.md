@@ -44,4 +44,4 @@ Make sure to pack these libraries and store the resulting Nuget packages in your
 ## Contributing
 
 If you would like to help and be part of this project, Tobey is 100% open source which means you can start contributing right now.
-Just please follow the [Contributing Guide](.github/CONTRIBUTING.md) we prepared for you.
+Just please follow the [Contributing Guide](tobey-core/.github/CONTRIBUTING) we prepared for you.
