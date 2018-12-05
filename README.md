@@ -40,3 +40,8 @@ Make sure to pack these libraries and store the resulting Nuget packages in your
 - Visual Studio 2017
 - .Net Core SDK 1.4 +
 - Github Tools for Visual Studio
+
+## Contributing
+
+If you would like to help and be part of this project, Tobey is 100% open source which means you can start contributing right now.
+Just please follow the [contributing guide](.github/CONTRIBUTING.md) we prepared for you to follow.
