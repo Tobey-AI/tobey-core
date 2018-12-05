@@ -6,7 +6,7 @@ To become a contributor for **Tobey AI** you can follow the steps described belo
 ## Getting started
 
 1. You need a Github account.
-2. Create a [new issue](https://github.com/QuadAI/quad-core/issues), making sure that it doesn't exist already:
+2. Create a [new issue](https://github.com/Tobey-AI/tobey-core/issues), making sure that it doesn't exist already:
 
 - If you found a **bug**: Make sure to describe the bug properly and provide the steps to reproduce it.
 
@@ -25,7 +25,7 @@ Please find the list of adopted tools below:
 
 ### Branching and PRs strategy
 
-1. Create a [new issue](https://github.com/QuadAI/quad-core/issues).
+1. Create a [new issue](https://github.com/Tobey-AI/tobey-core/issues).
 
 2. [Fork the project](https://help.github.com/articles/fork-a-repo/).
 
