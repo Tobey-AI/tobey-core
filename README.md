@@ -19,16 +19,19 @@ There is a set of preconfigured Skills already activated in the Core; Skills lik
 ## Building the DEV environment
 
 The first thing to do to get Tobey on your local dev environment, is to clone/dowload the Core solution.
-All dependancies that Core has have been implemented as .NetStandard libraries that can be cloned/downloaded from GitHub as well.
+All dependancies that **Core** has, have been implemented as .NetStandard libraries that can be cloned/downloaded from GitHub as well.
 At the current moment, you need to compile any dependancy manually before being able to compile Core.
 
 Please follow these steps to get your DEV environment up and running:
 
 - Create a local Nuget feed. To do so, You can follow this simple steps from this [Official Visual Studio article](https://docs.microsoft.com/en-us/nuget/hosting-packages/local-feeds).
 
-- Clone and compile the **Foundation** solution. This is an isolated component which doesn't have explicit dependancy with any other project, hence why will compile without any issue.
+- Clone and compile the **Foundation** solution. This is an isolated component which doesn't have explicit dependancies with any other project, hence why it will compile without any issue.
+
 - Pack **Foundation** and push the Nuget package into your local Nuget feed. This step is needed to share the library with all other components.
-- Clone and compile the default Skills which are: **tobey-skill-datetime**, **tobey-skill-weather**, **tobey-skill-search**, **tobey-skill-greetings**.
+
+- Clone and compile the default Skills which are: **tobey-skill-datetime**, **tobey-skill-weather**, **tobey-skill-search**, **tobey-skill-greetings**. Keep in mind that each skill project has a dependancy with **Foundation**.
+
 Make sure to pack these libraries and store the resulting Nuget packages in your selected local Nuget feed.
 - Now you can finally restore the packages in the **Core** project and build it.
 
@@ -37,6 +40,3 @@ Make sure to pack these libraries and store the resulting Nuget packages in your
 - Visual Studio 2017
 - .Net Core 1.4 +
 - Github Tools for Visual Studio
-
-
-
