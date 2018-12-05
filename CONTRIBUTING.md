@@ -31,9 +31,9 @@ Please find the list of adopted tools below:
 
 3. Create a new branch from 'master'. Each branch name should end with the Github issue ID. For example, if your Github issue name is: *issue-001* , your branch should be named as follows:
 
-- If the issue is related to a bug, **bug-001**.
+    - If the issue is related to a bug, **bug-001**.
     
-- If the issue is related to a new feature, **feat-001**.
+    - If the issue is related to a new feature, **feat-001**.
 
 4. Please follow the object oriented design and patterns already present in the solution as much as possible.
 
@@ -43,19 +43,17 @@ Please find the list of adopted tools below:
 
 7. Make sure there are no warnings or errors in your commits.
 
-8. Once you are done with your branch and you have committed all your changes, please follow the steps below:
-
-9. Sync your fork with the original (*upstream*) project. This step is needed to guarantee that your fork is in sync with the latest status of the original repository.
+8. Sync your fork with the original (*upstream*) project. This step is needed to guarantee that your fork is in sync with the latest status of the original repository.
 
 **From your Fork**:
 
-- Pull from the master branch to make sure your local master is synced.
+   - Pull from the master branch to make sure your local master is synced.
 
-- Merge the master branch into your branch.
+   - Merge the master branch into your branch.
 
-- Resolve any conflicts
+   - Resolve any conflicts
 
-- You can finally [raise a PR on Github](https://help.github.com/articles/about-pull-requests/) to be reviewed and merged. 
+   - You can finally [raise a PR on Github](https://help.github.com/articles/about-pull-requests/) to be reviewed and merged. 
 
 The entire process is clearly explained on this web article:<br/>
 http://doc.fireflymigration.com/working-with-github-fork-in-visual-studio.html
